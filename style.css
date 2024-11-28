@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(127, 127, 127);
+
+}
+header img{
+    height: 25%;
+    width: 25%;
+    display: flex;
+    margin: auto;
+
+}
+nav {
+    background-color: #010101;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    color: white; 
+    text-decoration: none; 
+    padding: 5px 10px; 
+}
+.t1, h2{
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 25px;
+    text-align: center;
+    
+}
+#inicio, #PaisAnfitrion, #Formato, #Sedes, #SeleccionPeruana, #Lafe{
+    background-color: rgb(200, 200, 200);
+    margin: 20px;
+    border-radius: 25px;
+    padding: 20px;
+}
+img{
+    width: 50%;
+    height: 50%;
+    border-radius: 25px;
+    margin: 5px;
+}
+p{
+    margin: 10px;
+    padding: 5px;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: justify;
+    
+}
+.descr{
+display: flex;
+} 
+h1{
+    text-align: center;
+}
+h2{
+    font-size: 60px;
+}
+.grupos{
+    display: flex;
+}
+.formato, li{
+    font-size: 24px;
+}
+.t2{
+    background-color: rgb(127, 127, 127);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 25px;
+    text-align: left;
+}
+
+#Sedes .sede-table {
+    margin-bottom: 20px;
+    width: 100%;
+}
+#Sedes .sede-table td {
+    background-color: rgb(252, 155, 155);
+    color: rgb(0, 0, 0);
+}
+
+#Sedes .sede-table th,
+#Sedes .sede-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    border-collapse: collapse;
+    width: 25%;
+
+}
+
+#Sedes .sede-table th {
+    background-color: rgb(255, 7, 7);
+    color: rgb(0, 0, 0);
+}
+h3{
+    text-align: center;
+    font-size: 24px;
+}
+td{
+    font-size: 24px;
+}
+th{
+    font-size: 36px;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.peruano {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    width: calc(20% - 20px); /* 5 elementos en una fila */
+    text-align: center;
+}
+
+.peruano img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.peruano h3 {
+    margin: 10px 0 5px;
+}
+
+.peruano p {
+    color: #555;
+    text-align: center;
+}
